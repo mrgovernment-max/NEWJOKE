@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#main {
+    background-color: rgba(245, 247, 250, 0.3); 
+    width: 60%;
+    color: black;
+    text-align: center;
+    height: auto;
+    margin: 5% auto;
+    margin-top: 10%;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.715);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease-in-out;
+}
+
+#main:hover {
+    box-shadow: 0 0 90px rgb(255, 255, 255);
+}
+
+#main p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#main input{
+    margin-top: 5%;
+    background-color: antiquewhite;
+    width: 10%;
+    text-align: center;
+}
+
+#main button {
+    margin-top: 5%;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+#main button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 25px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
